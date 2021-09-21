@@ -54,6 +54,8 @@ func main() {
 		ReadTimeout:  time.Duration(cfg.ReadTimeout) * time.Second,
 	}
 
+	log.Println("Starting http server...")
+
 	if err := server.ListenAndServe(); err != nil {
 		log.Fatal("Failed to serve http server")
 	}

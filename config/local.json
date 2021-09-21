@@ -1,5 +1,5 @@
 {
-    "Addr": "localhost",
+    "Addr": "0.0.0.0",
     "Port": "8080",
     "ReadTimeout": "60",
     "WriteTimeout": "60"
